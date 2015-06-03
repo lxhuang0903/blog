@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+  margin:0; 
+  padding:0; 
+  font-family: "Proxima Nova" , "Helvetica Neue" , Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #ccd8db;
+  background: #1f2324;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px){
+body {
+  padding-bottom: 64px;
+  padding-top: 64px;
+ }
+}
+

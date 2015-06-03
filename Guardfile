@@ -1,4 +1,7 @@
 
 guard 'livereload' do
   watch('index.html')
-end
+  watch('header.html')
+  watch('footer.html')
+  watch('main.css')
+  end
