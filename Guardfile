@@ -4,4 +4,5 @@ guard 'livereload' do
   watch('header.html')
   watch('footer.html')
   watch('main.css')
+  watch('js/controller.js')
   end

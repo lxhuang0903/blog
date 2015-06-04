@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 <meta charset="UTF-8">
 <title>Header</title>
 </head>
 <body>
-  <div class="container" data-ng-init="">
+  <div class="container">
     <div id="logo-container">
       <a href="logo" href="/">
         <img src="images/logo.svg" alt="">
@@ -13,28 +13,40 @@
   </div>
   <hr class="expand">
   
-  <nav>
+  <nav  data-ng-controller="navController">
     <ol class="list-unstyled list-inline">
       <li class="nav-link">
-        <a href="/" title="">About</a>
+        <a href="/" id="About" title="About" data-ng-click="change($event)">About</a>
       </li>
       <li class="nav-link">
-        <a href="/" title="Productions" >Productions</a></li>
+        <a href="/" title="Productions" data-ng-click="change($event)">Productions</a></li>
       <li class=nav-link">
-        <a href="/">Blog</a></li>
+        <a href="/" title="Blog" data-ng-click="change($event)">Blog</a></li>
       <li class="nav-link">
-        <a href="/">Resume</a>
+        <a href="/" title="Resume" data-ng-click="change($event)">Resume</a>
       </li>
       <li class="nav-link pull-right">
        <a href="" >status</a></li>
    </ol>
-   <h2 id="nav-title">
-
+   <h2 id="nav-title" style="opacity: 1; transform: matrix(1,0,0,1,0,0); transform-origin: 50% 50% 0px;">
+     {{ lititle }} 
     </h2>
   </nav>
+      
 
+</div> 
+<script>
+/*
+  function navController($scope){
+    $scope.lititle = 'abc';
 
-  </div>  
+    $scope.change = function (){
+       $scope.lititle = this.attr('title'); 
+    }
+
+    }
+    */
+</script>
 </body>
 </html>
 

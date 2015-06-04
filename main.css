@@ -41,7 +41,78 @@ body>.background {
 }
 
 header {
-  margin-top: 64px;
   z-index: 9999;
+}
+
+header a {
+  color: rgba(204,216,219,.42);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.grid-flicker.background.points {
+  background-image: url(/images/grid_point.png);
+}
+
+.grid-flicker.background {
+  background-position:left top;
+}
+
+header hr.expand {
+/*  margin: 0; */
+
+}
+
+header hr {
+  height: 0;
+  margin-bottom:0
+}
+
+hr {
+  margin-top: 18px;
+  border: 0;
+  border-top: 1px solid rgba(179, 57, 114, 0.07);
+  box-sizing: content-box;
+
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin left: 5px;
+}
+
+.list-unstyled {
+  
+}
+
+header nav ol {
+  line-height: normal;
+  margin-bottom: 0;
+  margin-left: 0!important;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+header .active {
+  border-top: 1px solid #a89b7b;
+}
+
+header li {
+  margin-right: 18px;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  padding-top: 18px;
 }
 

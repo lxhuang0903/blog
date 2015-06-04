@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="">
+<html ng-app="app">
 <head>
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,22 @@
   <base href="/">  
   <meta name="viewport" content="width=device-width">
 </head>
+
 <body data-ng-app="" class="ng-scope">
+ 
   <div class="fade background in"></div>
+  
   <div class="grid-flicker background in fade points"></div>
+  
   <header data-ng-include="'header.html'" class="fade header ng-scope in"></header>
- <h1>Hello World, I' am a developer</h1>
+  
+  <h1>Hello World, I' am a developer</h1>
+  
   <footer data-ng-include="'footer.html'"></footer>
   <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
   <script src="http://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.js"></script>
   <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="js/controller.js"></script>
   <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
