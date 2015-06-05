@@ -52,6 +52,13 @@ footer>.container, header>.container, main>.container {
   float: left;
 }
 
+main>.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px!important;
+}
+
+
 }
 
 header {
@@ -174,5 +181,15 @@ footer>.container, header>.container, main>.container {
 
 footer a {
   color: rgba(204,216,219,.14);
+}
+
+#about {
+  align-items: center;
+}
+
+main {
+  display: flex!important;
+  flex:1;
+  z-index: 9999;
 }
 

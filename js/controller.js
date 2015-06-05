@@ -1,6 +1,8 @@
-var app = angular.module('app',[]);
+var controllers = angular.module('controllers',[]);
 
-app.controller('navController', function($scope){
+controllers.controller('navController', function($scope){
+  /*  $('header li a:first').click() ; */
+    
     $scope.lititle =  $('header li a:first').attr('title');
     $('header li:first').addClass('active');
 
