@@ -1,0 +1,30 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "1. the value of ng-app should be '', if not the ng-include can't work. 2. overflow:scroll (visible): what happened when the overflow element content box 3. add Guardfile : use Guard tool to reload the page or execute some other tasks when some special file modified 4. add Gemfile : specify which gems the project need to use . 5. after executing 'bundle install', the Gemfile.lock will be generated. The Gemfile.lock file is where Bundler records the exact versions that were installed. 6.",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-jasmine": "^0.3.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxhuang0903/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxhuang0903/blog/issues"
+  },
+  "homepage": "https://github.com/lxhuang0903/blog"
+}

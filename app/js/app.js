@@ -3,13 +3,13 @@ var app = angular.module('app',['ngRoute','controllers']);
 app.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider){
       $routeProvider.
        when('/',{
-           templateUrl: 'partials/about.html'
+           templateUrl: 'views/about.html'
       }).
         when('/about',{
         redirectTo: '/'
       }).
         when('/productions',{
-          templateUrl: 'partials/productions.html'
+          templateUrl: 'views/productions.html'
       }).
         otherwise({
        redirectTo: '/404'

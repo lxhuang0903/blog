@@ -5,3 +5,5 @@ gem 'guard'
 
 gem 'guard-livereload'
 gem 'guard-compass'
+
+gem 'jasmine'

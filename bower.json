@@ -1,0 +1,20 @@
+{
+  "name": "myblog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lxhuang0903/blog",
+  "authors": [
+    "ychuang <ychuang@thoughtworks.com>"
+  ],
+  "description": "a website for AngularJS",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
