@@ -5,7 +5,7 @@
 }
 
 body>.background {
-  background-image: url(/images/background.png);
+  background-image: url(../images/background.png);
   background-position: center center;
   height: 100vh;
   position:fixed;
@@ -80,7 +80,7 @@ img {
 }
 
 .grid-flicker.background.points {
-  background-image: url(/images/grid_point.png);
+  background-image: url(../images/grid_point.png);
 }
 
 .grid-flicker.background {
@@ -192,4 +192,12 @@ main {
   flex:1;
   z-index: 9999;
 }
+
+.about {
+  z-index: 9999;
+}
+
+
+
+
 
